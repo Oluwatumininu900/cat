@@ -59,3 +59,46 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.navbar {
+    background-color: rgb(140, 183, 88);
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 0;
+}
+
+#about-us {
+    background-color: #f4f4f4;
+}
+
+#enquiry {
+    background-color: #e2e2e2;
+}

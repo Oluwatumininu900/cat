@@ -8,15 +8,15 @@ body{
     padding: 20px;
     color: black;
 }
-.head a{
+/* .head a{
     display: inline-block;
     justify-content: center;
     align-items: center;
-    color:rgb(9, 13, 69);
+    color:rgb(11, 11, 11);
     font-size: larger;
     margin: 5px;
     padding: auto;
-}
+} */
 
 .curve{
     background-color: rgb(140, 148, 133);
@@ -36,14 +36,14 @@ body{
 }
 .menu{
     width: 80%;
-  background-color:  rgb(177, 209, 140);
+  background-color:  rgb(140, 183, 88);
   margin-left: auto;
   margin-right: auto;
+
   color: black;
   border-radius: 25px; 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px #0000004d;
-  padding: auto;
-  margin: auto;
+  padding: 8px;
   display: block;
   justify-content: center;
   align-items: center;  
@@ -54,4 +54,65 @@ ol,ul {
 }
 .darkened-image {
     filter: brightness(50%); /* Reduce brightness to 50% */
+}
+hr{
+    height: 4px;
+    background-color:rgb(25, 222, 25);
+    border-color: rgb(148, 235, 18);
+    width: 50%;
+    margin: 0 auto; 
+}
+.font{
+    font-family: 50px;
+}
+.dimmed-image {
+    filter: brightness(0.5); /* Reduces brightness to 50% */
+    border-radius: 15px;
+}
+.padding{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.navbar {
+    background-color: rgb(140, 183, 88);
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 0;
+}
+
+#about-us {
+    background-color: #f4f4f4;
+}
+
+#enquiry {
+    background-color: #e2e2e2;
 }

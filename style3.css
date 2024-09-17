@@ -8,7 +8,7 @@ body{
     padding: 20px;
     color: azure;
 }
-.head a{
+/* .head a{
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -16,28 +16,34 @@ body{
     font-size: larger;
     margin: 5px;
     padding: auto;
-}
+} */
 
 .curve{
-    background-color: rgb(140, 148, 133);
+    background-color: rgb(108, 145, 77);
     border-radius: 20px;
     color: black;
     width: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center; 
 }
-.box{
+/* .box{
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px #0000004d;
         border-radius: 20px;
-}
-p{
+        display: block;
+        justify-content: center;
+        align-items: center; 
+} */
+/* p{
     color: rgb(156, 167, 139);
-}
-.cen{
+} */
+ /* .cen{
     display: block;
     justify-content: right;
     align-items: right;  
-    /* background-color: rgb(185, 223, 107); */
-}
-.box{
+     background-color: rgb(185, 223, 107); 
+}  */
+/* .box{
     background-color: #e0f6e0;
     position: relative;
     display: inline-block;
@@ -49,8 +55,8 @@ p{
     animation-delay: 1s;
     animation-direction: forwards;
     animation-play-state: running;
- }
- @keyframes my{
+ } */
+ /* @keyframes my{
    
    0%{
     background-color: rgb(217, 243, 192);
@@ -61,5 +67,68 @@ p{
    100%{
     background-color: rgb(190, 225, 154);
    }
-  
- }
+   */
+ 
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(140, 183, 88);
+    padding: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 0;
+}
+
+#about-us {
+    background-color: #f4f4f4;
+}
+
+#enquiry {
+    background-color: #e2e2e2;
+}
+.menu{
+    width: 80%;
+  background-color:  rgb(140, 183, 88);
+  margin-left: auto;
+  margin-right: auto;
+
+  color: black;
+  border-radius: 25px; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px #0000004d;
+  padding: 8px;
+  display: block;
+  justify-content: center;
+  align-items: center;  
+}
+img{
+    border-radius: 25px;
+}
